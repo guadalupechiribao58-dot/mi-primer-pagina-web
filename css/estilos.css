@@ -4,13 +4,14 @@ body {
   font-family: Arial,sans-serif;
   font-size: 18px;
   text-align: left;
-}
+} 
 
 h1{ 
     color: #A9472D;
-    font-size: 36px;
+    font-size: 40px;
+    margin: 0 auto;
     text-align: center;
-    text-decoration: underline;
+
 }
 
 h2{ 
@@ -25,7 +26,7 @@ li{
 h3{ 
     color: #63391F;
     text-align: center;
-    font-size: 36px;
+    font-size: 22px;
 }
 
 img{ 
@@ -36,3 +37,61 @@ img{
     margin: 0 auto;
 }
 
+header{ display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo{ width: 50px;
+       height: 50px;
+       margin-right: auto;
+} 
+
+
+
+.sociales{ display: flex;
+           flex-direction: row;
+           gap: 8px;
+           align-items: center;
+}
+
+.redes{ width: 30px;
+        height: 30px;
+}
+
+footer{ display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 30px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        border: 1px solid #d1d5db;
+        gap: 15px;   
+}
+
+.footer-mapa{
+              width: 200px;
+              height: 120px; 
+              border: none;
+              display: block;             
+}
+
+.footer-redes{ 
+              display: flex;
+              flex-direction: row;
+              gap: 8px;
+              align-items: center;
+}
+
+.footer-info{
+              font-size: 15px;
+              text-align: right;
+              color: #49352B;        
+}
+
+.footer-info{
+             margin: 2px 0;
+}
